@@ -6,6 +6,18 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BrowserChoice {
 
+	public static WebDriver browserChoice(String browser){
+		WebDriver driver = null;
+		switch(browser){
+		case "firefox":
+			driver = firefox();
+		case "chrome":
+			driver = chrome();
+		}
+		return driver;
+		
+	}
+	
 	public static WebDriver firefox(){
 		System.setProperty("webdriver.gecko.driver", PropertyReader.getProperty("firefox"));
 		WebDriver driver = new FirefoxDriver();
