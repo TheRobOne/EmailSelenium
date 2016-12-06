@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 
 import Tasks.LogInPageHandler;
 import Tasks.MainPageHandler;
+import Tasks.NewMailHandler;
 import Utils.BrowserChoice;
 import Utils.CSVReader;
 
@@ -24,12 +25,12 @@ WebDriver driver = BrowserChoice.firefox();
 	
 	@Test
 	public void sendMail(){
-		
+		NewMailHandler.sendNewMail(driver, "selenium.recipient@op.pl", "test", "test test test");
 	}
 	
 	@AfterTest
 	public void quit(){
-		MainPageHandler.logOut(driver);
-		driver.quit();
+		//MainPageHandler.logOut(driver);
+		//driver.quit();
 	}
 }

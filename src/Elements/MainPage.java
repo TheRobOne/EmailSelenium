@@ -13,4 +13,9 @@ public class MainPage {
 		element = driver.findElement(By.xpath(PropertyReader.getProperty("main.log_out_button")));
 		return element;
 	}
+	
+	public static WebElement newMailButton(WebDriver driver) {
+		element = driver.findElement(By.xpath(PropertyReader.getProperty("main.new_mail_button")));
+		return element;
+	}
 }
