@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 
 import Tasks.LogInPageHandler;
 import Tasks.MainPageHandler;
+import Tasks.SentMailsHandler;
 import Utils.BrowserChoice;
 import Utils.CSVReader;
 
@@ -22,8 +23,8 @@ public class LogInDeleteSentMail {
 	}
 	
 	@Test
-	public void sendMail(){
-		
+	public void deleteMails(){
+		SentMailsHandler.deleteAllMails(driver);
 	}
 	
 	@AfterTest
