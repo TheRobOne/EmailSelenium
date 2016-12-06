@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10407" started-at="2016-12-05T21:42:16Z" finished-at="2016-12-05T21:42:26Z">
+  <suite name="Default suite" duration-ms="7555" started-at="2016-12-06T18:02:55Z" finished-at="2016-12-06T18:03:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10407" started-at="2016-12-05T21:42:16Z" finished-at="2016-12-05T21:42:26Z">
-      <class name="TestCases.LogInSendMail">
-        <test-method status="PASS" signature="logIn()[pri:0, instance:TestCases.LogInSendMail@1649b0e6]" name="logIn" is-config="true" duration-ms="2431" started-at="2016-12-05T22:42:16Z" finished-at="2016-12-05T22:42:18Z">
+    <test name="Default test" duration-ms="7555" started-at="2016-12-06T18:02:55Z" finished-at="2016-12-06T18:03:03Z">
+      <class name="TestCases.LogInDeleteSentMail">
+        <test-method status="PASS" signature="logIn()[pri:0, instance:TestCases.LogInDeleteSentMail@1649b0e6]" name="logIn" is-config="true" duration-ms="2398" started-at="2016-12-06T19:02:55Z" finished-at="2016-12-06T19:02:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logIn -->
-        <test-method status="PASS" signature="sendMail()[pri:0, instance:TestCases.LogInSendMail@1649b0e6]" name="sendMail" duration-ms="7923" started-at="2016-12-05T22:42:18Z" finished-at="2016-12-05T22:42:26Z">
+        <test-method status="PASS" signature="deleteMails()[pri:0, instance:TestCases.LogInDeleteSentMail@1649b0e6]" name="deleteMails" duration-ms="4691" started-at="2016-12-06T19:02:57Z" finished-at="2016-12-06T19:03:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sendMail -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:TestCases.LogInSendMail@1649b0e6]" name="quit" is-config="true" duration-ms="1" started-at="2016-12-05T22:42:26Z" finished-at="2016-12-05T22:42:26Z">
+        </test-method> <!-- deleteMails -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:TestCases.LogInDeleteSentMail@1649b0e6]" name="quit" is-config="true" duration-ms="414" started-at="2016-12-06T19:03:02Z" finished-at="2016-12-06T19:03:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-      </class> <!-- TestCases.LogInSendMail -->
+      </class> <!-- TestCases.LogInDeleteSentMail -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
