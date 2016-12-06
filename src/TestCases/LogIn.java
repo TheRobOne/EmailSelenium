@@ -22,6 +22,6 @@ public class LogIn {
 	
 	@AfterTest
 	public void quit(){
-		driver.quit();
+		//driver.quit();
 	}
 }
