@@ -2,24 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6254" started-at="2016-12-05T18:04:00Z" finished-at="2016-12-05T18:04:07Z">
+  <suite name="Default suite" duration-ms="22870" started-at="2016-12-06T10:12:44Z" finished-at="2016-12-06T10:13:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6254" started-at="2016-12-05T18:04:00Z" finished-at="2016-12-05T18:04:07Z">
-      <class name="TestCases.LogInLogOut">
-        <test-method status="PASS" signature="logIn()[pri:0, instance:TestCases.LogInLogOut@1649b0e6]" name="logIn" is-config="true" duration-ms="2468" started-at="2016-12-05T19:04:00Z" finished-at="2016-12-05T19:04:03Z">
+    <test name="Default test" duration-ms="22870" started-at="2016-12-06T10:12:44Z" finished-at="2016-12-06T10:13:07Z">
+      <class name="TestCases.LogIn">
+        <test-method status="PASS" signature="logIn()[pri:0, instance:TestCases.LogIn@2525ff7e]" name="logIn" duration-ms="19531" started-at="2016-12-06T11:12:45Z" finished-at="2016-12-06T11:13:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logIn -->
-        <test-method status="PASS" signature="LogOut()[pri:0, instance:TestCases.LogInLogOut@1649b0e6]" name="LogOut" duration-ms="3416" started-at="2016-12-05T19:04:03Z" finished-at="2016-12-05T19:04:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LogOut -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:TestCases.LogInLogOut@1649b0e6]" name="quit" is-config="true" duration-ms="327" started-at="2016-12-05T19:04:06Z" finished-at="2016-12-05T19:04:07Z">
+        <test-method status="PASS" signature="quit()[pri:0, instance:TestCases.LogIn@2525ff7e]" name="quit" is-config="true" duration-ms="3288" started-at="2016-12-06T11:13:04Z" finished-at="2016-12-06T11:13:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-      </class> <!-- TestCases.LogInLogOut -->
+      </class> <!-- TestCases.LogIn -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
